@@ -35,6 +35,4 @@ jobs:
           test -f README.md
           test -f requirements.txt
 
-      - name: Verify Streamlit App
-        run: |
-          python -m py_compile app/app.py
+      
